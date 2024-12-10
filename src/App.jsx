@@ -8,10 +8,12 @@ import User from './pages/User'
 import Number from './pages/Number'
 import Blog from './pages/Blog'
 import Catch from './pages/Catch'
+import Navbar from './components/Navbar'
 
 export default function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route exact path='/' Component={Home} />
         <Route path='/about' Component={About} />

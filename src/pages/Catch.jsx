@@ -5,7 +5,7 @@ export default function Catch() {
     <>    
         <div class="card">
           <div class="content">
-            <h1>how </h1>
+            <h1>how to cath Rat</h1>
             <p class="para">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi laboriosam
               at voluptas minus culpa deserunt delectus sapiente inventore pariatur

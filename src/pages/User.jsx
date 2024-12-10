@@ -3,6 +3,7 @@ import React from 'react'
 export default function User() {
   return (
     <>
+      <div className="parent-container">
         <div className="container">
           <div className="box">
             <span className="title">Ra.One</span>
@@ -13,6 +14,7 @@ export default function User() {
             </div>
           </div>
         </div>
+      </div>
     </>
   )
 }

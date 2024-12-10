@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <> 
+      <div className="parent-container">
         <div className="container">
           <div className="box">
             <span className="title">HOME</span>
@@ -19,6 +20,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
     </>
   )
 }

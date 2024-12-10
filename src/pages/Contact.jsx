@@ -3,6 +3,7 @@ import React from 'react'
 export default function Contact() {
   return (
     <>
+      <div className="parent-container">
         <div className="container">
           <div className="box">
             <span className="title">Contact</span>
@@ -13,6 +14,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
+      </div>
     </>
   )
 }

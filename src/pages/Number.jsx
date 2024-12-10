@@ -5,6 +5,7 @@ export default function Number() {
   const {num} = useParams();
   return (
     <>
+      <div className="parent-container">
         <div className="container">
           <div className="box">
             <span className="title">Number: {num}</span>
@@ -15,6 +16,7 @@ export default function Number() {
             </div>
           </div>
         </div>
+      </div>
     </>
   )
 }

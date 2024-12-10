@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function About() {
   return (
-    <>
+    <> 
+      <div className="parent-container">
         <div className="container">
           <div className="box">
             <span className="title">About</span>
@@ -13,6 +14,7 @@ export default function About() {
             </div>
           </div>
         </div>
+      </div> 
     </>
   )
 }

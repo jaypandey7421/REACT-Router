@@ -1,0 +1,110 @@
+/* Reset and Base Styles */
+.navbar ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.active-page a{
+    color: #007bff !important;
+    font-weight: bold;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+/* Navbar Styles */
+.navbar {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Brand Section */
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.brand-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    font-size: 1em;
+    color: #333;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+/* Toggle Button */
+.toggle-btn {
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .nav-links.active {
+        display: flex;
+        padding: 10px;
+    }
+
+    .toggle-btn {
+        display: block;
+    }
+
+}

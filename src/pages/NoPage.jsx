@@ -3,6 +3,7 @@ import React from 'react'
 export default function NoPage() {
   return (
     <>
+      <div className="parent-container">
         <div className="container">
           <div className="box">
             <span className="title">Page Not Found</span>
@@ -13,6 +14,7 @@ export default function NoPage() {
             </div>
           </div>
         </div>
+      </div>
     </>
   )
 }
